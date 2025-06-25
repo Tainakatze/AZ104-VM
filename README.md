@@ -66,8 +66,6 @@ Azure Bastion
 Azure Monitor
 ```
 
-![Arquitetura de Referência](images/arquitetura.png)
----
 
 ## Gerenciamento da VM e Recursos:
 
