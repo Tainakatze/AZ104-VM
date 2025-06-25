@@ -66,6 +66,8 @@ Azure Bastion
 Azure Monitor
 ```
 
+![Meu diagrama](meu_diagrama.png)
+
 
 ## Gerenciamento da VM e Recursos:
 
