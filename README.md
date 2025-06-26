@@ -69,7 +69,6 @@ Azure Bastion
 Azure Monitor
 ```
 
-![Meu diagrama](Meu_diagrama.png)
 
 ---
 
