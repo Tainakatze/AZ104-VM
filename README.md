@@ -1,4 +1,4 @@
-# Gerenciamento de Máquinas Virtuais no Azure
+# 🧪 Gerenciamento de Máquinas Virtuais no Azure
 
 ## 📜 Índice:
 
@@ -16,13 +16,13 @@
 
 ---
 
-## Introdução:
+## 📜 Introdução:
 
-As **máquinas virtuais (VMs)** são a base para muitos workloads no Azure. Gerenciá-las adequadamente desde o provisionamento até o monitoramento e segurança, garantindo que os serviços rodem com **alta disponibilidade, segurança e economia**.
+As **máquinas virtuais (VMs)** são a base para muitos workloads no Azure. Gerenciá-las adequadamente — desde o provisionamento até o monitoramento e segurança — garante que os serviços rodem com **alta disponibilidade, segurança e economia**.
 
 ---
 
-## Importância do Gerenciamento de VMs no Azure:
+## 🌟 Importância do Gerenciamento de VMs no Azure:
 
 O gerenciamento correto das VMs é vital para empresas que desejam:
 - ✅ Garantir segurança contra acessos indevidos  
@@ -44,7 +44,8 @@ O gerenciamento correto das VMs é vital para empresas que desejam:
 
 ---
 
-## Pré-requisitos:
+## 🧰 Pré-requisitos:
+
 - ✅ Conta ativa no [Azure Portal](https://portal.azure.com)  
 - ✅ Permissões de **Contribuidor** ou superior  
 - ✅ Familiaridade com **Azure CLI**, **PowerShell** e redes virtuais  
@@ -53,7 +54,7 @@ O gerenciamento correto das VMs é vital para empresas que desejam:
 
 ---
 
-## 📂 Arquitetura de Referência
+## 📂 Arquitetura de Referência:
 ```
 VNet (10.0.0.0/16)
   └─ Subnet (10.0.0.0/24)
@@ -68,10 +69,11 @@ Azure Monitor
 
 ![Meu diagrama](meu_diagrama.png)
 
+---
 
 ## Gerenciamento da VM e Recursos:
 
-### 1️⃣ Configuração inicial:
+### 1️⃣ Configuração inicial
 - Especifique o tamanho da VM (SKU), tipo de SO e autenticação  
 - Configure apenas portas necessárias no NSG  
 - Ative o Backup e criptografe os discos para segurança  
@@ -94,8 +96,7 @@ Redimensione a VM quando necessário:
 az vm resize --resource-group rg-gerenciamento-vm --name vm-azure --size Standard_B2ms
 ```
 
-### 4️⃣ Gerenciamento avançado:
-
+### 4️⃣ Gerenciamento avançado
 - Configure backups regulares com o **Azure Backup**  
 - Capture **snapshots** antes de atualizações críticas  
 - Gerencie o tráfego com NSGs e aplique regras personalizadas  
@@ -105,7 +106,7 @@ az vm resize --resource-group rg-gerenciamento-vm --name vm-azure --size Standar
 
 ---
 
-## Exemplos Práticos:
+## 🧪 Exemplos Práticos:
 
 #### Criar VM com CLI
 ```bash
@@ -154,7 +155,8 @@ resource vm 'Microsoft.Compute/virtualMachines@2021-07-01' = {
 
 ---
 
-## 🔗 Links Úteis:
+## Links Úteis:
+
 - [Azure Virtual Machines Docs](https://learn.microsoft.com/azure/virtual-machines/)  
 - [Azure Bastion Docs](https://learn.microsoft.com/azure/bastion/bastion-overview)  
 - [Azure Backup Docs](https://learn.microsoft.com/azure/backup/backup-overview)  
@@ -164,6 +166,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2021-07-01' = {
 ---
 
 ## 📚 Referências:
+
 - [Microsoft Docs — Azure Virtual Machines](https://learn.microsoft.com/azure/virtual-machines/)  
 - [Microsoft Docs — Azure Backup](https://learn.microsoft.com/azure/backup/backup-overview)  
 - [Microsoft Docs — Azure Monitor](https://learn.microsoft.com/azure/azure-monitor/overview)  
@@ -171,7 +174,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2021-07-01' = {
 
 ---
 
-## Minhas conclusões:
+## 🎯 Minhas conclusões:
 
 O gerenciamento de máquinas virtuais no Azure vai além da simples criação. Envolve garantir segurança, economia, backups e monitoramento, além da automação e práticas que tornam a operação robusta e eficiente. Dominar essas habilidades é fundamental para qualquer profissional que atua na nuvem e quer entregar valor com qualidade.
 
