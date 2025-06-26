@@ -18,7 +18,7 @@
 
 ## 📜 Introdução:
 
-As **máquinas virtuais (VMs)** são a base para muitos workloads no Azure. Gerenciá-las adequadamente — desde o provisionamento até o monitoramento e segurança — garante que os serviços rodem com **alta disponibilidade, segurança e economia**.
+As **máquinas virtuais (VMs)** são a base para muitos workloads no Azure. Gerenciá-las adequadamente  desde o provisionamento até o monitoramento e segurança garante que os serviços rodem com **alta disponibilidade, segurança e economia**.
 
 ---
 
