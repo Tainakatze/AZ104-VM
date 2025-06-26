@@ -1,4 +1,4 @@
-# 🧪Gerenciamento de Máquinas Virtuais no Azure
+# Gerenciamento de Máquinas Virtuais no Azure
 
 ## 📜 Índice:
 
